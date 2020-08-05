@@ -1,0 +1,87 @@
+{
+  "python.pythonPath": "/usr/bin/python3",
+  "editor.formatOnSave": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "red",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "?",
+      "color": "blue",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "@",
+      "color": "#eff547",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "/",
+      "color": "#16cc47",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#CF79FD",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "%",
+      "color": "#fdc679",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    }
+  ],
+
+  "peacock.color": "black",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "extensions.confirmedUriHandlerExtensionIds": [],
+  "workbench.editorAssociations": [],
+  "terminal.integrated.automationShell.linux": "",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000000",
+    "statusBar.border": "#000000",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1a1a1a",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.border": "#000000",
+    "titleBar.inactiveBackground": "#00000099",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.affectActivityBar": false,
+  "peacock.affectTitleBar": true,
+  "peacock.affectStatusBar": true,
+  "peacock.affectTabActiveBorder": false,
+  "materialTheme.accent": "Graphite",
+  "oneDarkPro.editorTheme": "vscode"
+}
