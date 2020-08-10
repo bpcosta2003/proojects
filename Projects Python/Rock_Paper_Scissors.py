@@ -7,6 +7,7 @@ def start():
 
     print("\n------------------------------------------------------------------------------------------")
     print("\nWELCOME TO ROCK-PAPER-SCISSOR GAME\n")
+    print("You have 3 tries to win the Robot")
     global name
     name = input("\nPlease put your name: ")
 
@@ -36,7 +37,7 @@ def play():
 
         grid = ["R", "S", "P"]
         game = choice(grid)
-        player = input("\nGO!: ")
+        player = input(f'\nGo {name}: ')
         player = player.upper()
 
         if player == "R" or player == "P" or player == "S":
@@ -53,7 +54,7 @@ def play():
                 print("Invalid command")
                 exit()
 
-        print(game)
+        print("Go Robot:" + game + "\n")
 
         # @ tie
 
@@ -79,7 +80,7 @@ def play():
 
         if tries == 0:
             print(
-                f'THE GAME WAS: {name}, {points_player} X Robot, {points_robot}')
+                f'THE GAME WAS: {name}, {points_player} X Robot, {points_robot}\n')
             if points_player > points_robot:
                 print('\033[32m' + name + ' YOU WIN !'+'\033[0;0m\n')
             elif points_robot > points_player:
