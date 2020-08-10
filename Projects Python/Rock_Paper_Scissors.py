@@ -37,7 +37,8 @@ def play():
 
         grid = ["R", "S", "P"]
         game = choice(grid)
-        player = input(f'\nGo {name}: ')
+        player = input('\033[32m' + '\n>> Go ' + name + ': '+'\033[0;0m')
+
         player = player.upper()
 
         if player == "R" or player == "P" or player == "S":
@@ -54,7 +55,7 @@ def play():
                 print("Invalid command")
                 exit()
 
-        print("Go Robot:" + game + "\n")
+        print('\033[32m' + '>> Go Robot:' + game + '\033[0;0m\n')
 
         # @ tie
 
@@ -80,7 +81,7 @@ def play():
 
         if tries == 0:
             print(
-                f'THE GAME WAS: {name}, {points_player} X Robot, {points_robot}\n')
+                f'\nTHE GAME WAS: {name}, {points_player} X Robot, {points_robot}\n')
             if points_player > points_robot:
                 print('\033[32m' + name + ' YOU WIN !'+'\033[0;0m\n')
             elif points_robot > points_player:
