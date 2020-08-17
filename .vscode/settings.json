@@ -57,7 +57,7 @@
       "italic": true
     }
   ],
-
+  "better-comments.highlightPlainText": true,
   "peacock.color": "black",
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "launch": {
@@ -81,5 +81,6 @@
   "peacock.affectStatusBar": true,
   "peacock.affectTabActiveBorder": false,
   "materialTheme.accent": "Graphite",
-  "oneDarkPro.editorTheme": "vscode"
+  "oneDarkPro.editorTheme": "vscode",
+  "terminal.integrated.env.linux": {}
 }
